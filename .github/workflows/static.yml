@@ -1,4 +1,4 @@
- name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -37,7 +37,7 @@ jobs:
       - name: Build Production Assets
         run: npm run build
 
-      - name: Setup GitHub Pages
+      - name: Setup GitHub Pages Pages
         uses: actions/configure-pages@v4
 
       - name: Upload Build Artifacts
